@@ -7,22 +7,8 @@ using namespace std;
 
 // Person class for owner under pet class
 class Person {
-private:
-	string name;
-
 public:
-	Person(){};
-	~Person(){};
-
-	// Setter
-	void set_name(string n){
-		name = n;
-	}
-
-	// Getter
-	string get_name(){
-		return name;
-	}
+	string name;
 };
 
 class Pet{

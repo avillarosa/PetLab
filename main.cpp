@@ -10,9 +10,11 @@
 
 int main(){
 
-	Snake snek;
 
-	Pet *myPet = new Snake;
+	Snake snek;
+	Pet *pet1;
+
+	static_cast<Snake*>(pet1)->snek();
 
 
 	return 0;
