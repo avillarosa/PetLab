@@ -3,7 +3,11 @@
 #ifndef SNAKE_H_
 #define SNAKE_H_
 
-
+class Snake: protected Animal{
+	void snek(){
+		cout << "snek snek snek\n";
+	}
+};
 
 
 
