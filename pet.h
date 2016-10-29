@@ -32,7 +32,7 @@ protected:
 	Person *owner;
 
 public:
-	Pet(){};
+	Pet(){age = 0; owner = NULL;};
 	~Pet(){};
 
 	// Setters

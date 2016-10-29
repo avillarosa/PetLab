@@ -1,7 +1,10 @@
 #include "animal.h"
 
 // Default Constructor/Deconstructor
-Animal::Animal(){};
+Animal::Animal(){
+	gender = ' ';
+	status = 0;
+};
 Animal::~Animal(){};
 
 // Setters

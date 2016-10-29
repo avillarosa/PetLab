@@ -11,7 +11,7 @@ protected:
 	string chemicalComp;
 
 public:
-	Rock(){};
+	Rock(){hardness = 0; color = 0;};
 	~Rock(){};
 
 	// Setters
@@ -44,16 +44,19 @@ public:
 };
 
 class Fornacite: protected Rock{
+public:
 	Fornacite(){};
 	~Fornacite(){}
 };
 
 class Fukalite: protected Rock{
+public:
 	Fukalite(){};
 	~Fukalite(){};
 };
 
 class Cummingtonite: protected Rock{
+public:
 	Cummingtonite(){};
 	~Cummingtonite(){}
 };

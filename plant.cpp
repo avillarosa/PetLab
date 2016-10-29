@@ -1,7 +1,7 @@
 #include "plant.h"
 
 // Default Constructor/Deconstructor
-Plant::Plant(){};
+Plant::Plant(){greenness = 0;};
 Plant::~Plant(){};
 
 // Setter

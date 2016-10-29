@@ -10,7 +10,4 @@ public:
 	}
 };
 
-
-
-
 #endif /* FERN_H_ */
