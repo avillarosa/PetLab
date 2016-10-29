@@ -14,7 +14,7 @@ int main(){
 	Snake snek;
 	Pet *pet1;
 
-	static_cast<Snake*>(pet1)->snek();
+	reinterpret_cast<Snake*>(pet1)->snek();
 
 
 	return 0;
