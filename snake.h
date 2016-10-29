@@ -4,6 +4,7 @@
 #define SNAKE_H_
 
 class Snake: protected Animal{
+public:
 	void snek(){
 		cout << "snek snek snek\n";
 	}

@@ -5,7 +5,18 @@
 
 class Plant: protected Pet{
 protected:
-	int greenness[51];
+
+	int greenness;
+
+public:
+	Plant();
+	~Plant();
+
+	// Setter
+	void set_greenness(int);
+
+	// Getter
+	int get_greenness();
 };
 
 

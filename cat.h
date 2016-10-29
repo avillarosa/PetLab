@@ -6,7 +6,7 @@
 class Cat: protected Animal{
 public:
 	void knock_shit_off_table(){
-		cout << " ";
+		cout << "Maintain eye contact, assert dominance.\n";
 	}
 };
 

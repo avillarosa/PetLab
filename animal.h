@@ -9,25 +9,16 @@ protected:
 	bool status; // Indoor/Outdoor
 
 public:
-	Animal(){};
-	~Animal(){};
+	Animal();
+	~Animal();
 
 	// Setters
-	void set_gender(char gen){
-		gender = gen;
-	}
-	void set_status(bool stat){
-		status = stat;
-	}
+	void set_gender(char);
+	void set_status(bool);
 
 	// Getters
-	char get_gender(){
-		return gender;
-	}
-	char get_status(){
-		return status;
-	}
+	char get_gender();
+	bool get_status();
 };
-
 
 #endif /* ANIMAL_H_ */

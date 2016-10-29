@@ -27,7 +27,7 @@ public:
 
 class Pet{
 protected:
-	string name;
+	string petName;
 	int age;
 	Person *owner;
 
@@ -36,21 +36,27 @@ public:
 	~Pet(){};
 
 	// Setters
-	void set_name(string petName){
-		name = petName;
+	void set_name(string pName){
+		petName = pName;
 	}
-	void set_age(int petAge){
-		age = petAge;
+	void set_age(int pAge){
+		age = pAge;
 	}
 
 	// Getters
 	string get_name(){
-		return name;
+		return petName;
 	}
 	int get_age(){
 		return age;
 	}
+	Person *get_owner(string na){
+		Person *ownPtr = new Person;
+		ownPtr->name = na;
 
+		return ownPtr;
+
+	}
 
 
 };
