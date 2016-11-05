@@ -5,7 +5,7 @@
 
 class Cactus: protected Plant{
 public:
-	void poke(){
+	void action(){
 		cout << "Poke.\n";
 	}
 };

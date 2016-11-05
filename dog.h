@@ -5,7 +5,7 @@
 
 class Dog: protected Animal{
 public:
-	void eat_poop(){
+	void action(){
 		cout << "Yum\n";
 	}
 };

@@ -44,6 +44,8 @@ public:
 
 	}
 
+	virtual void action () = 0;
+
 
 };
 

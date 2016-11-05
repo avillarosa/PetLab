@@ -5,7 +5,7 @@
 
 class Snake: protected Animal{
 public:
-	void snek(){
+	void action (){
 		cout << "snek snek snek\n";
 	}
 };

@@ -41,6 +41,7 @@ public:
 	string get_chemicalComp(){
 		return chemicalComp;
 	}
+	void action() {cout << "rock";}
 };
 
 class Fornacite: protected Rock{

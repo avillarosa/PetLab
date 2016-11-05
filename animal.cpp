@@ -4,7 +4,7 @@
 Animal::Animal(){
 	gender = ' ';
 	status = 0;
-};
+}
 Animal::~Animal(){};
 
 // Setters

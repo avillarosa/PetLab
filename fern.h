@@ -5,7 +5,7 @@
 
 class Fern: protected Plant{
 public:
-	void ferniness(){
+	void action(){
 		cout << "(ferniness)\n";
 	}
 };
